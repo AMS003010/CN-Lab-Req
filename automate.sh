@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]; then
-  echo "you are not root"
+  echo "Boi you ain't root"
+  echo "Please switch to root with command su root"
   exit 1
 fi
 echo " |---> Boi you're root"
